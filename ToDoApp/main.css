@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+margin: 0;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600vh;
+    background-color:purple;
+    
+
+}
+header {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: center;
+} 
+#new-task-form {
+display : flex;
+}
+
+#new-task-input {
+    flex : 1 1 0%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+h1 {
+    position: center;
+}
+
+p#demo {
+    text-decoration: line-through;
+  }
+
+  .deletebtn {
+    float: right;
+    width: 50%;
+  }
+  
+  form input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0.5px;
+  }
+
+  form button {
+    width:5px;
+    height: 40px;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+
+  }
+   form placeholder {
+    width: 250px;
+    height :400px;
+  }
